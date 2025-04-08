@@ -58,8 +58,6 @@ app.get("/vip-lounge", (req, res) => {
       res.send("Sorry, no guests allowed.");
     }
   });
-  
-  
 
 app.listen(port, () => {
   console.log(`The express app is ready on port ${port}!`);
